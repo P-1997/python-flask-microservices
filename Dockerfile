@@ -1,7 +1,6 @@
 
 FROM python:3.7-alpine
 
-# Create app directory
 RUN mkdir /app
 WORKDIR /app
 
