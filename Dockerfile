@@ -4,7 +4,6 @@ FROM python:3.7-alpine
 RUN mkdir /app
 WORKDIR /app
 
-# Copy requirements file and install dependencies
 COPY requirements.txt .
 
 RUN pip3 install --no-cache-dir -r requirements.txt
