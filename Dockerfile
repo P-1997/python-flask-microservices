@@ -8,7 +8,7 @@ COPY requirements.txt .
 
 RUN pip3 install --no-cache-dir -r requirements.txt
 
-# Copy entire source code into the image
+# Copy entire source code into the 
 COPY . .
 
 # Expose Flask default port
